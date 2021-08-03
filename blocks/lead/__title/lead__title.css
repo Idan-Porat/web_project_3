@@ -1,0 +1,14 @@
+@media only screen and (min-width:1280px) {   
+    .lead__title {
+        margin-top:0px;
+        margin-bottom:32px;
+        line-height:104%;
+        font-style:normal;
+        font-weight:900;
+        font-size:96px;
+        text-align:center;
+        margin-left:132px;
+        margin-right:132px;
+        color:#ffffff;
+    }
+}
