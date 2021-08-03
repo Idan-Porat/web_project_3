@@ -1,0 +1,10 @@
+@media only screen and (min-width:1280px) {  
+    .intro {
+        display:flex;
+        flex-direction:column;
+        margin-top:114px;
+        margin-left:148px;
+        margin-right:442px;
+        border:solid 1px red;
+    }
+}
