@@ -3,7 +3,6 @@
 .header {
   display:flex;
   justify-content:space-between;
-  text-align:center;
   width:984px;
   margin: 34px 148px 0px 148px;
   border:solid 1px red;

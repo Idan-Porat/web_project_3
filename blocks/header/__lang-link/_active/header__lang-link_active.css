@@ -1,0 +1,7 @@
+@media only screen and (min-width: 1280px) {    
+
+.header__lang-link_active {
+  text-decoration:underline;
+  color:#ffffff;
+  }
+}

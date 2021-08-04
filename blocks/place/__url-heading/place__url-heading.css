@@ -1,0 +1,13 @@
+@media only screen and (min-width: 1280px) {    
+    .place__url-heading {
+        font-style:normal;
+        font-weight:normal;
+        width:456px;
+        height:20px;
+        font-size:12px;
+        line-height:170%;
+        margin-bottom:4px;
+        list-style:none;
+        color:#aaaaaa;
+    }
+}
