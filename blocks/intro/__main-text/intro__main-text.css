@@ -1,11 +1,25 @@
-@media only screen and (min-width:1280px) {  
-    .intro__main-text {
+ .intro__main-text {
         margin-top:0px;
         margin-bottom:33px;
         font-weight:normal;
+        font-style: normal;
         font-size:16px;
         line-height:163%;
         width:690px;
         color:#ffffff;
+}
+
+@media only screen and (max-width:768px) {  
+    .intro {
+        width:720px;
+    }
+}
+
+@media only screen and (max-width:320px) {  
+    .intro {
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction:row;
+        width:288px;
     }
 }

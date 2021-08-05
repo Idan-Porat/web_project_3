@@ -1,17 +1,19 @@
-@media only screen and (min-width: 1280px) {    
-    .place__link {
+ .place__link {
         font-style:normal;
         font-weight:normal;
-        width:456px;
-        height:22px;
         font-size:18px;
         line-height:22px;
         margin-bottom:48px;
         color:#ffffff;
         list-style:none;
-    }
+}
 
-    .place__link:hover {
-        cursor:pointer;
+.place__link:hover {
+    cursor:pointer;
+}
+
+@media only screen and (max-width:320px) {  
+    .place__link {
+        margin-bottom:30px;
     }
 }

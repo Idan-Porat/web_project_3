@@ -1,17 +1,41 @@
-@media only screen and (min-width:1280px) {   
-    .lead__subtitle {
+ .lead__subtitle {
         margin-top:0px;
         margin-bottom:64px;
-        font-style:normal;
-        font-weight:900;
-        font-size:96px;
         text-align:center;
-        margin-left:182px;
-        margin-right:182px;
+        margin-left:18.5%;
+        margin-right:18.5%;
         font-style:normal;
         font-weight:normal;
         font-size:30px;
         line-height:120%;
         color:#ffffff;
+}
+
+
+@media only screen and (max-width:1024px) { 
+    .lead__subtitle {
+        margin-left:16.6%;
+        margin-right:16.6%;
+        margin-bottom:56px;
+    }
+}
+
+@media only screen and (max-width:768px) { 
+    .lead__subtitle {
+        margin-left:9.6%;
+        margin-right:9.6%;
+        margin-bottom:56px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .lead__subtitle {
+        margin-left:5%;
+        margin-right:5%;
+        line-height:125%;
+        font-style:normal;
+        font-weight:normal;
+        font-size:16px;
+        margin-bottom:40px;
     }
 }

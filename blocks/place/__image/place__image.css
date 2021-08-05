@@ -1,5 +1,4 @@
-@media only screen and (min-width: 1280px) {    
-    .place__image {
+.place__image {
         flex-grow:0;
         flex-shrink:0;
         width:460px;
@@ -8,5 +7,31 @@
         grid-row:2/4;
         margin-top:0px;
         margin-bottom:80px;
+}
+
+
+
+@media only screen and (max-width:1024px) {  
+    .place__image {
+        width:440px;
+        height:440px;
+    }
+  }
+
+@media only screen and (max-width:768px) {  
+    .place__image {
+        width:340px;
+        height:340px;
+    }
+  }
+  
+  @media only screen and (max-width:320px) {  
+    .place__image {
+        width:320px;
+        height:320px;
+        margin-bottom:0px;
+        grid-column:1;
+        grid-row:3;
     }
 }
+
