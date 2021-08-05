@@ -1,0 +1,17 @@
+@media only screen and (min-width: 1280px) {    
+    .cover__title {
+        position:absolute;
+        font-weight:900;
+        margin-top:0px;
+        width:51%;
+        padding-top:23.9%;
+        padding-bottom:32.2%;
+        margin-bottom:0px;
+        font-size:72px;
+        line-height:106%;
+        align-content:center;
+        justify-content:center;
+        text-align:center;
+        overflow:hidden;
+    }
+}

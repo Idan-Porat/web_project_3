@@ -1,0 +1,14 @@
+@media only screen and (min-width: 1280px) {    
+    .cover__subtitle {
+        position:absolute;
+        font-weight:normal;
+        font-size:18px;
+        line-height:22px;
+        padding-top:33%;
+        padding-bottom:25%;
+        width:25%;
+        justify-content:center;
+        text-align:center;
+        overflow:hidden;
+    }
+}

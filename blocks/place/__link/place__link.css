@@ -10,4 +10,8 @@
         color:#ffffff;
         list-style:none;
     }
+
+    .place__link:hover {
+        cursor:pointer;
+    }
 }

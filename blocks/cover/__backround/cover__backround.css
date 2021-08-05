@@ -1,0 +1,12 @@
+@media only screen and (min-width: 1280px) {  
+ .cover__backround {
+    width:92.5%;
+    height:740px;
+ }
+
+ .cover__backround:hover {
+     background:#2A2C2F;
+     opacity:0.3;
+     cursor:pointer;
+ }
+}
