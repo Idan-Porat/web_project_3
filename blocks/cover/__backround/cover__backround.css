@@ -1,12 +1,32 @@
-@media only screen and (min-width: 1280px) {  
- .cover__backround {
+.cover__backround {
     width:92.5%;
     height:740px;
+}
+
+ .cover__backround:hover .cover__overlay {
+     opacity:0.3;
  }
 
- .cover__backround:hover {
-     background:#2A2C2F;
-     opacity:0.3;
-     cursor:pointer;
- }
+
+ @media only screen and (max-width: 1024px) { 
+    .cover__backround {
+    width:1024px;
+    height:640px;
+    }
 }
+
+@media only screen and (max-width: 768px) { 
+    .cover__backround {
+        width:768px;
+        height:480px;
+    }
+}
+
+@media only screen and (max-width: 320px) { 
+    .cover__backround {
+    width:320px;
+    height:200px;
+    }
+}
+
+

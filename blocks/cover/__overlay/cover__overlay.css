@@ -1,5 +1,5 @@
-@media only screen and (min-width: 1280px) {    
+
     .cover__overlay {
-        overflow:hidden;
+        background:#2A2C2F;
+        cursor:pointer;
     }
-}

@@ -1,7 +1,6 @@
  .place__paragraphs {
-        margin-top:0;
-        margin-right:0px;
-        border:solid 1px green;
+    margin-top:0;
+    margin-right:0px;
 }
 
 .place:nth-of-type(5) .place__paragraphs:last-child {

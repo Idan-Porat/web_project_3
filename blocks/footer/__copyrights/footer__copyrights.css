@@ -1,12 +1,17 @@
-@media only screen and (min-width: 1280px) {    
+.footer__copyrights {
+    font-style:normal;
+    font-weight:normal;
+    font-size:14px;
+    margin-top:0px;
+    margin-bottom:0px;
+    line-height:114%;
+    text-align:right;
+    color:#ffffff;
+}
+
+@media only screen and (max-width: 320px) { 
     .footer__copyrights {
-        font-style:normal;
-        font-weight:normal;
-        font-size:14px;
-        margin-top:0px;
-        margin-bottom:0px;
-        line-height:114%;
-        text-align:right;
-        color:#ffffff;
+        line-height:100%;
+        padding-bottom:24px;
     }
 }

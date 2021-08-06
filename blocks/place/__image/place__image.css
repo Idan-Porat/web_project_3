@@ -9,6 +9,10 @@
         margin-bottom:80px;
 }
 
+.place:last-child .place__image {
+    margin-bottom:0px;
+}
+
 
 
 @media only screen and (max-width:1024px) {  

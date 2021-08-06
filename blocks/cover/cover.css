@@ -1,13 +1,37 @@
-@media only screen and (min-width: 1280px) {    
+.cover {
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+
+@media only screen and (max-width: 1280px) {    
     .cover {
-        display:flex;
-        flex-direction:column;
-        flex-wrap:wrap;
-        margin: 92px 48px 92px 48px;
-        width:92.5%;
-        height:740px;
-        align-items:center;
-        align-content:center;
-        justify-content:center;  
+    padding: 92px 48px 92px 48px;
+    width:92.5%;
+    height:740px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {    
+    .cover {
+    padding: 92px 0px 92px 0px;
+    width:1024px;
+    height:640px;
+    }
+}
+
+@media only screen and (max-width: 768px) {    
+    .cover {
+    padding: 89px 0px 88px 0px;
+    width:768px;
+    height:480px;
+    }
+}
+
+@media only screen and (max-width: 768px) {    
+    .cover {
+    padding: 64px 0px 64px 0px;
+    width:320px;
+    height:200px;
     }
 }

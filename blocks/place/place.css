@@ -3,7 +3,6 @@
       grid-template-columns:repeat(2,1fr);
       grid-template-rows:auto;
       column-gap:40px;
-      border:solid 1px blue;
  }
 
 @media only screen and (max-width:768px) {  
@@ -19,6 +18,7 @@
   .place {
     display:grid;
     grid-template-columns:repeat(1,1fr);
+    column-gap:40px;
     grid-template-rows:auto;
   }
 
