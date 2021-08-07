@@ -3,15 +3,30 @@
     display:flex;
     margin-top:12px;
     margin-bottom:4px;
-    padding-left:0px;
+    margin-left:73.6%;
     gap:18px;
     list-style:none;
     color:#ffffff;
 }
 
+@media only screen and (max-width:1024px) { 
+    .header__links {
+      width:928px;
+      margin-left:69%;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) { 
+    .header__links {
+      width:720px;
+      margin-left:58%;
+    }
+  }
+
 @media only screen and (max-width: 320px) { 
     .header__links {
         margin-top:10px;
         margin-bottom:6px;
-    } 
+        margin-left:1%;
+      } 
 }

@@ -1,32 +1,32 @@
 .cover__backround {
-    width:92.5%;
-    height:740px;
+    display:grid;
+    grid-template-rows:10px;
+    background-image:url(../../../sprint-3-images/cover-route-66.jpg);
+    background-size:1184px 740px;
+    background-repeat:no-repeat;
 }
 
  .cover__backround:hover .cover__overlay {
      opacity:0.3;
  }
-
-
- @media only screen and (max-width: 1024px) { 
+ 
+@media only screen and (max-width: 1024px) { 
     .cover__backround {
-    width:1024px;
-    height:640px;
+        background-size:1024px 640px;
     }
 }
 
 @media only screen and (max-width: 768px) { 
     .cover__backround {
-        width:768px;
-        height:480px;
+        background-size:768px 480px;
     }
 }
 
 @media only screen and (max-width: 320px) { 
     .cover__backround {
-    width:320px;
-    height:200px;
+        background-size:320px 200px;
     }
 }
+ 
 
 

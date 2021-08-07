@@ -16,7 +16,6 @@
 
 @media only screen and (max-width: 768px) {    
     .footer {
-        position:absolute;
         width:720px;
         height:18px;
         margin-bottom:0px;

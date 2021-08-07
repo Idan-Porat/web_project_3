@@ -25,6 +25,10 @@
     
 @media only screen and (max-width:320px) {
         .place__paragraphs {
+           display: flex;
+           margin-left:16px;
+           flex-wrap:wrap;
             width:288px;
+
         }
 }

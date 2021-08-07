@@ -1,12 +1,10 @@
 .cover__subtitle {
-    position:absolute;
     font-weight:normal;
     font-size:18px;
     line-height:22px;
     height:66px;
-    padding:33% 36.5% 24% 31%;
-    margin:0px;
-    width:25%;
+    width:320px;
+    margin:33% 36.5% 24% 36.5%;
     justify-content:center;
     text-align:center;
 }
@@ -17,7 +15,7 @@
         height:48px;
         font-size:14px;
         line-height:114%;
-        padding:33.3% 34.375% 22.75% 34.375%;
+        margin:33.3% 34.375% 22.75% 34.375%;
 
     }
 }
@@ -26,7 +24,7 @@
     .cover__subtitle {
         width:320px;
         height:66px;
-        padding:34% 29.16% 19.92% 29.16%;
+        margin:34% 29.16% 19.92% 29.16%;
     }
 }
 
@@ -36,6 +34,6 @@
         height:48px;
         font-size:14px;
         line-height:114%;
-        padding:31.825% 5% 15.625% 5%;
+        margin:31.825% 5% 15.625% 5%;
     }
 }
