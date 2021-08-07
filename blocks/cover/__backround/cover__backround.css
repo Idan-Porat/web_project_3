@@ -1,14 +1,12 @@
 .cover__backround {
     display:grid;
     grid-template-rows:10px;
+    position:relative;
     background-image:url(../../../sprint-3-images/cover-route-66.jpg);
     background-size:1184px 740px;
     background-repeat:no-repeat;
+    z-index:1;
 }
-
- .cover__backround:hover .cover__overlay {
-     opacity:0.3;
- }
  
 @media only screen and (max-width: 1024px) { 
     .cover__backround {

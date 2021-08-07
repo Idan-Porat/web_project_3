@@ -7,6 +7,7 @@
     margin:33% 36.5% 24% 36.5%;
     justify-content:center;
     text-align:center;
+    z-index:3;
 }
 
 @media only screen and (max-width: 1024px) { 
