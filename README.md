@@ -26,6 +26,7 @@ In addition there are links to the weather :partly_sunny:, maps :world_map:, and
 **Images**
 _Header_
 
+![header](https://user-images.githubusercontent.com/65240374/128623351-bf17323c-bf04-4298-95ae-1e0cb89c894a.png)
 
 _Example for city information_
 
