@@ -1,4 +1,4 @@
-# :minibus: From Portland to Portland 
+# From Portland to Portland :minibus: 
 
 ## Overview
 * Intro
@@ -24,6 +24,10 @@ In addition there are links to the weather :partly_sunny:, maps :world_map:, and
 -----------------------------------------------
 
 **Images**
+_Header_
+
+
+_Example for city information_
 
 ![newyork](https://user-images.githubusercontent.com/65240374/128623223-bf4c037b-5614-4112-82c4-3ea9f143c985.png)
 
