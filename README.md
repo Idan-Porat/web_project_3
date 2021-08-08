@@ -34,7 +34,7 @@ _Example for city information_
 
 -----------------------------------------------
 
-**[Link to the website](https://students-yandex.github.io/web_project_3/index.html)**
+**[Link to the website](https://porat5528.github.io/web_project_3/index.html)**
 
 **Future Plans**
 
