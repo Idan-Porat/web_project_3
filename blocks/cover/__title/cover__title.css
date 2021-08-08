@@ -2,41 +2,10 @@
     position:relative;
     font-weight:900;
     width:656px;
-    margin:23.9% 24.5% 32.2% 24.5%;
+    margin:23.9% 23.5% 32.2% 24.5%;
     font-size:72px;
     line-height:106%;
     color:#ffffff;
     text-align: center;
     z-index:3;
-}
-
-
-
-
-@media only screen and (max-width: 1024px) {
-    .cover__title {
-        width:656px;
-        height:76px;
-        margin:233px 184px 331px 184px;
-        color:#fffdfd;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .cover__title {
-        width:656px;
-        height:76px;
-        margin:153px 56px 251px 56px;
-        color:#fffdfd;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-    .cover__title {
-        width:288px;
-        height:35px;
-        margin:51px 16px 114px 16px;
-        font-size:32px;
-        line-height:109%;
-    }
 }

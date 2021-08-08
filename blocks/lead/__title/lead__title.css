@@ -1,5 +1,6 @@
 .lead__title {
         margin-top:0px;
+        max-width:720px;
         margin-bottom:32px;
         line-height:104%;
         font-style:normal;
@@ -34,6 +35,7 @@
         font-style:normal;
         font-weight:900;
         font-size:40px;
+        max-width:288px;
         margin-bottom:16px;
     }
 }

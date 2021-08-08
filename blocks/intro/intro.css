@@ -2,15 +2,10 @@
     display:flex;
     flex-direction:column;
     margin-top:92px;
-}
-    
-@media only screen and (max-width:1280px) {  
-    .intro {
     margin-left:148px;
     margin-right:442px;
-    }
 }
-
+    
 @media only screen and (max-width:1024px) {  
     .intro {
     margin-left:48px;
