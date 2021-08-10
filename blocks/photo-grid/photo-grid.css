@@ -8,7 +8,6 @@
     .photo-grid {
         margin-top:88px;
         max-width: calc(100% - 24px * 2);
-        width:720px;
     }
 }
 
