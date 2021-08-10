@@ -1,0 +1,11 @@
+.places__list{
+    max-width: 984px;
+    width: 984px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:88px;
+    padding-left:0px;
+  }
+
+ 

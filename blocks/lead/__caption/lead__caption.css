@@ -1,31 +1,11 @@
 .lead__caption {
+        font-style:normal;
+        font-weight:normal;
+        margin-top:8px;
         margin-bottom:0px;
-        margin-right:800px;
-        font-style: normal;
-        font-weight: normal;
-        letter-spacing:0.15em;
-        margin-top:0px;
         font-size:10px;
         line-height:140%;
         color:#ffffff;
+        letter-spacing:0.15em;
         text-transform:uppercase;
-}
-
-
-@media only screen and (max-width:1024px) { 
-    .lead__caption {
-        margin-right:720px;
-    }
-}
-
-@media only screen and (max-width:768px) { 
-    .lead__caption {
-        margin-right:562px;
-    }
-}
-
-@media only screen and (max-width: 320px) { 
-    .lead__caption {
-        margin-right:122px;
-    }
 }

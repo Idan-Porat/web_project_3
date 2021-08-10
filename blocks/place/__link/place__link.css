@@ -3,17 +3,7 @@
         font-weight:normal;
         font-size:18px;
         line-height:22px;
-        margin-bottom:48px;
         color:#ffffff;
         list-style:none;
 }
 
-.place__link:hover {
-    cursor:pointer;
-}
-
-@media only screen and (max-width:320px) {  
-    .place__link {
-        margin-bottom:30px;
-    }
-}

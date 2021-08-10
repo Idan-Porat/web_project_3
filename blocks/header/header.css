@@ -1,33 +1,15 @@
    
 .header {
   display:flex;
-  max-width: calc(100% - 148px*2);
-  width:984px;
-  justify-content: space-between;
-  margin: 34px 148px 0px 148px;
+  align-items:flex-end;
+  justify-content:space-between;
+  min-height:82px;
 }
 
-@media only screen and (max-width:1024px) { 
+@media screen and (min-width:320px) and (max-width:767px) {
   .header {
-    width:928px;
-    margin: 34px 48px 0px 48px;
-    max-width: calc(100% - 48px*2);
-  }
-}
-
-@media only screen and (max-width: 768px) { 
-  .header {
-    width:720px;
-    margin: 34px 24px 0px 24px;
-    max-width: calc(100% - 24px*2);
-  }
-}
-
-@media only screen and (max-width: 320px) { 
-  .header {
-    width:288px;
-    margin: 20px 16px 0px 16px;
-    max-width: calc(100% - 16px*2);
+    min-height:57.27px;
+    max-width:600px;
   }
 }
 

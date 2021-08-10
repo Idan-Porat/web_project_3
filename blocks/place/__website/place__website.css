@@ -1,7 +1,13 @@
 .place__website {
-        padding-left:0px;
         color:#ffffff;
-        margin-bottom:48px;
+        grid-area:url;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-bottom:0px;
+        margin-left:0px;
+        padding-left:0px;
+        padding-right:0px;
 }
 
 @media only screen and (max-width:1280px) {  
@@ -22,13 +28,12 @@
          }
  }
 
-@media only screen and (max-width:320px) {  
+@media only screen and (min-width:320px) and (max-width:767px) {  
         .place__website {
-            margin-top:30px;
-            margin-bottom:30px;
-            margin-left:16px;
+            max-width: 288px;
+            margin-top:0px;
+            margin-bottom:0px;
+            padding-left: 16px;
+            padding-right: 16px;
         }
-        .place:nth-of-type(2) .place__website {
-                margin-top:0px;
-            }
 }
