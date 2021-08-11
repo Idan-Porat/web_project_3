@@ -3,13 +3,19 @@
   display:flex;
   align-items:flex-end;
   justify-content:space-between;
-  min-height:82px;
+  margin:34px auto 0 auto;
+}
+
+@media screen and (min-width:1280px) and (max-width:1280px) {
+  .header {
+    width:984px;
+  }
 }
 
 @media screen and (min-width:320px) and (max-width:767px) {
   .header {
-    min-height:57.27px;
     max-width:600px;
+    margin-top:20px;
   }
 }
 
