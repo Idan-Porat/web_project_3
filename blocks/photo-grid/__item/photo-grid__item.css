@@ -3,16 +3,9 @@
     list-style:none;
     grid-template-columns:repeat(auto-fill , minmax(284px,1fr));
     max-width:1184px;
-    box-sizing:content-box;
     grid-gap:16px;
     padding-left:0px;
-    object-fit:cover;
-    margin:92px auto 0px auto;
-}
-
-@media only screen and (min-width:1280px) {
-    .photo-grid__item {
-        grid-template-columns:repeat(4 , minmax(284px,1fr));  
-    }
+    width:100%;
+    margin:0px auto 0px auto;
 }
 
