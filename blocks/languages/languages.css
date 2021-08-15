@@ -2,5 +2,11 @@
     display:flex;
     list-style:none;
     padding:0px;
-    margin:0px;
+    margin:12px 0px 4px 0px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .languages {
+        margin:10px 0px 6px 0px;
+    }
+  }
