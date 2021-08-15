@@ -10,3 +10,10 @@
 .languages__link:first-child {
   margin-right:18px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .languages__link {
+    line-height:111%;
+    font-size:18px;
+  }
+}
